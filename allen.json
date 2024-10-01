@@ -1,0 +1,775 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hello",
+        "Hi",
+        "Hey",
+        "Good morning",
+        "Good afternoon",
+        "Good evening"
+      ],
+      "responses": [
+        "Hello! How may I assist you today?",
+        "Hi! How can I help you?",
+        "Greetings! What can I do for you?"
+      ]
+    },
+    {
+      "tag": "admission_inquiry",
+      "patterns": [
+        "I want to know about admissions",
+        "How can I apply for admission?",
+        "What are the admission criteria?",
+        "Tell me about the admissions process",
+        "How do I enroll in the college?"
+      ],
+      "responses": [
+        "You can find all the admission details on our website, or feel free to call us at +91 8127405222 / +91 8127505222.",
+        "Admissions are open! Visit our website for more information or call our admissions helpline.",
+        "For admissions, please visit the Admissions section of our website or contact us directly for assistance."
+      ]
+    },
+    {
+      "tag": "institution_overview",
+      "patterns": [
+        "Tell me about Allenhouse Group of Institutions",
+        "What is Allenhouse Group of Institutions?",
+        "Give me an overview of Allenhouse Group of Institutions",
+        "Can you provide details of Allenhouse Institutions?",
+        "Information about Allenhouse Group of Institutions"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions is a private educational institution located in Kanpur, Uttar Pradesh. Established in 2009, it offers undergraduate and postgraduate programs in engineering, management, applied sciences, and diploma courses. The institution is affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU) and Chhatrapati Shahu Ji Maharaj University (CSJMU), and is approved by AICTE."
+      ]
+    },
+    {
+      "tag": "courses_offered",
+      "patterns": [
+        "What courses are available at Allenhouse Group of Institutions?",
+        "Tell me about the programs offered at Allenhouse",
+        "What can I study at Allenhouse Institutions?",
+        "List the courses provided by Allenhouse",
+        "Which programs does Allenhouse offer?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions offers a wide range of courses such as B.Tech in Computer Science, Electronics & Communication, Electrical, Mechanical, and Civil Engineering. It also offers BBA, MBA, BCA, B.Sc, B.Com, and Diploma programs in Mechanical and Civil Engineering."
+      ]
+    },
+    {
+      "tag": "fee_structure",
+      "patterns": [
+        "What is the fee structure at Allenhouse Group of Institutions?",
+        "How much does it cost to study at Allenhouse?",
+        "Tell me about the fees at Allenhouse",
+        "What are the course fees for Allenhouse?",
+        "Can you provide details about Allenhouse fee structure?"
+      ],
+      "responses": [
+        "The fee structure at Allenhouse varies depending on the course. For B.Tech programs, the annual fee ranges from INR 95,000 to 1,10,000, while MBA programs cost between INR 95,000 to 1,10,000 per year. BBA and BCA programs are around INR 50,000 to 60,000 annually. Diploma programs are INR 50,000 to 55,000 per year. Hostel fees range from INR 60,000 to 75,000 per year."
+      ]
+    },
+    {
+      "tag": "admission_process",
+      "patterns": [
+        "How can I get admission to Allenhouse?",
+        "What is the admission procedure at Allenhouse Group of Institutions?",
+        "How do I apply for Allenhouse?",
+        "What is the eligibility for admission at Allenhouse?",
+        "Tell me about the admission process at Allenhouse"
+      ],
+      "responses": [
+        "For admission to B.Tech, students must have passed 10+2 with Physics, Chemistry, and Mathematics, and qualify in entrance exams like UPSEE or JEE Main. For BBA, BCA, and B.Com, a 10+2 qualification is required. The admission process includes entrance exams, counseling, and document verification."
+      ]
+    },
+    {
+      "tag": "facilities",
+      "patterns": [
+        "What facilities does Allenhouse Group of Institutions offer?",
+        "Tell me about the campus facilities at Allenhouse",
+        "What are the amenities at Allenhouse?",
+        "Does Allenhouse provide hostels?",
+        "What infrastructure is available at Allenhouse?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions offers state-of-the-art facilities including well-equipped labs, a vast library, sports grounds, separate hostels for boys and girls, a cafeteria, and medical care services. Transportation and Wi-Fi are also available for students."
+      ]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": [
+        "Does Allenhouse offer scholarships?",
+        "Are there any scholarships at Allenhouse Group of Institutions?",
+        "What kind of financial aid is available at Allenhouse?",
+        "Can I get a scholarship to study at Allenhouse?",
+        "Tell me about the scholarships at Allenhouse"
+      ],
+      "responses": [
+        "Yes, Allenhouse offers various scholarships, including merit-based scholarships for students with excellent academic performance. Government scholarships for economically weaker sections and sports scholarships are also available."
+      ]
+    },
+    {
+      "tag": "placements",
+      "patterns": [
+        "What are the placement opportunities at Allenhouse?",
+        "Tell me about the placements at Allenhouse Group of Institutions",
+        "Does Allenhouse provide placement support?",
+        "What is the placement record at Allenhouse?",
+        "Can you provide details about placements at Allenhouse?"
+      ],
+      "responses": [
+        "Allenhouse has a dedicated Training and Placement Cell, offering pre-placement training, internships, and recruitment drives. Top recruiters like TCS, Infosys, Wipro, HCL, ICICI Bank, and Capgemini participate in campus placements, with average salary packages ranging from INR 3 to 6 lakhs per annum."
+      ]
+    },
+    {
+      "tag": "contact_information",
+      "patterns": [
+        "How can I contact Allenhouse Group of Institutions?",
+        "What is the contact number for Allenhouse?",
+        "Where is Allenhouse located?",
+        "Give me the contact details of Allenhouse Group of Institutions",
+        "How do I reach Allenhouse?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions is located at Rooma Industrial Area, Kanpur - Prayagraj Highway, Kanpur, Uttar Pradesh, India. You can contact them at +91-512-2696248, 2696249, or visit their website at https://www.allenhouse.ac.in."
+      ]
+    },
+    {
+      "tag": "course_offerings",
+      "patterns": [
+        "What courses do you offer?",
+        "Which programs are available?",
+        "Tell me about the B.Tech. course",
+        "What MBA specializations are available?"
+      ],
+      "responses": [
+        "We offer a range of programs including B.Tech, BBA, BCA, and MBA. You can find more information about each program on our website.",
+        "Our institution offers B.Tech, BBA, BCA, and MBA programs with a focus on providing quality education across various disciplines.",
+        "You can explore our full list of courses and programs in the Academics section on our website."
+      ]
+    },
+    {
+      "tag": "fee_payment",
+      "patterns": [
+        "How can I pay the fee?",
+        "Tell me the fee payment process",
+        "Can I pay fees online?",
+        "What are the fee payment methods?"
+      ],
+      "responses": [
+        "You can pay your fees online through our 'Pay Fee' section on the website or visit the campus for offline payment options.",
+        "For fee payment, visit the 'Pay Fee' section on our website. For any assistance, feel free to contact us.",
+        "Online fee payment is available through the 'Pay Fee' section. Let us know if you need any help with the process."
+      ]
+    },
+    {
+      "tag": "introduction",
+      "patterns": [
+        "Tell me about Allenhouse Group of Institutions",
+        "What is Allenhouse Group of Institutions?",
+        "Give me an overview of Allenhouse Group of Institutions",
+        "Can you provide details of Allenhouse Institutions?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions, located in Kanpur, Uttar Pradesh, is a prestigious educational institution established in 2009. It offers a range of professional, technical, and management programs. The institution is affiliated with Dr. A.P.J. Abdul Kalam Technical University (AKTU) and Chhatrapati Shahu Ji Maharaj University (CSJMU), and is approved by AICTE."
+      ]
+    },
+    {
+      "tag": "academic_programs",
+      "patterns": [
+        "What courses are offered at Allenhouse Group of Institutions?",
+        "Tell me about the programs at Allenhouse",
+        "Which degrees can I study at Allenhouse?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions offers a variety of undergraduate and postgraduate courses such as B.Tech in Computer Science, Electronics & Communication, Electrical, Mechanical, and Civil Engineering. It also offers BBA, MBA, B.Sc, B.Com, BCA, and Diploma programs in Mechanical and Civil Engineering."
+      ]
+    },
+    {
+      "tag": "infrastructure_facilities",
+      "patterns": [
+        "What infrastructure is available at Allenhouse?",
+        "Tell me about the campus facilities at Allenhouse",
+        "What amenities does Allenhouse provide?",
+        "Do you have a library at Allenhouse?",
+        "Is there a hostel facility at Allenhouse?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions boasts modern infrastructure including well-equipped labs, a comprehensive library, sports facilities, and hostels for both boys and girls. Additional amenities include a cafeteria, medical facilities, and transportation services."
+      ]
+    },
+    {
+      "tag": "placement_assistance",
+      "patterns": [
+        "Does Allenhouse provide placement assistance?",
+        "What is the placement support like at Allenhouse?",
+        "Tell me about the placement opportunities at Allenhouse",
+        "How does Allenhouse help with placements?"
+      ],
+      "responses": [
+        "Yes, Allenhouse has a dedicated Training and Placement Cell that helps students prepare for placements through training, mock interviews, and industry exposure. Many reputed companies visit our campus for recruitment.",
+        "The institution provides extensive placement assistance through workshops, internships, and a robust placement cell to connect students with potential employers."
+      ]
+    },
+    {
+      "tag": "scholarship_details",
+      "patterns": [
+        "What scholarships are available at Allenhouse?",
+        "Tell me about the financial aid options at Allenhouse",
+        "Can I apply for a scholarship at Allenhouse?",
+        "What are the eligibility criteria for scholarships?"
+      ],
+      "responses": [
+        "Allenhouse offers various scholarships, including merit-based scholarships for outstanding students. Additionally, there are scholarships available for students from economically weaker sections and sports scholarships.",
+        "The institution provides merit-based scholarships to support deserving candidates. Eligibility criteria may vary, so please check the scholarship section on our website for more details."
+      ]
+    },
+    {
+      "tag": "contact_details",
+      "patterns": [
+        "How can I contact Allenhouse?",
+        "What is the address of Allenhouse Group of Institutions?",
+        "Give me the contact number for Allenhouse",
+        "Where is Allenhouse located?",
+        "What are the contact details of Allenhouse?"
+      ],
+      "responses": [
+        "You can contact Allenhouse Group of Institutions at Rooma Industrial Area, Kanpur - Prayagraj Highway, Kanpur, Uttar Pradesh, India. The contact numbers are +91-512-2696248, 2696249, or you can visit their website for more information."
+      ]
+    },
+ {
+      "tag": "bca_course_details",
+      "patterns": [
+        "Tell me about the BCA program",
+        "What is the duration of the BCA course?",
+        "Is the BCA course full-time?",
+        "What university is the BCA affiliated with?",
+        "What does the BCA program cover?"
+      ],
+      "responses": [
+        "Allenhouse Business School offers a 3-year full-time Bachelor of Computer Applications (BCA) degree from Chhatrapati Sahuji Maharaj University, Kanpur. The program focuses on developing IT skills for students who wish to build a career in the field of information technology."
+      ]
+    },
+    {
+      "tag": "bca_program_structure",
+      "patterns": [
+        "What is the structure of the BCA program?",
+        "How is the BCA program organized?",
+        "Can you explain the BCA curriculum?",
+        "What subjects are covered in the BCA course?"
+      ],
+      "responses": [
+        "The BCA curriculum is inclusive and aligned with emerging IT advancements, covering areas such as AI, Machine Learning, IoT, and other technologies that drive digitalization and productivity in the context of Industry 4.0."
+      ]
+    },
+    {
+      "tag": "bca_career_opportunities",
+      "patterns": [
+        "What career opportunities are available after BCA?",
+        "Can I work in IT with a BCA degree?",
+        "What jobs can I get after completing my BCA?",
+        "Tell me about the job prospects for BCA graduates"
+      ],
+      "responses": [
+        "BCA graduates have a wide array of opportunities in the IT sector, including roles in software development, web development, system analysis, and more, allowing them to contribute effectively to the rapidly evolving technology landscape."
+      ]
+    },
+    {
+      "tag": "bca_training_programs",
+      "patterns": [
+        "What training programs are available for BCA students?",
+        "Do you offer any certifications for BCA students?",
+        "Tell me about technical training for BCA students",
+        "What skills can I learn during the BCA program?"
+      ],
+      "responses": [
+        "The BCA program includes training on cutting-edge technologies such as Data Science, Edge Computing, Quantum Computing, and Process Automation, providing students with the skills required to excel in the IT industry."
+      ]
+    },
+    {
+      "tag": "btech_course_details",
+      "patterns": [
+        "Tell me about the B.Tech program",
+        "What is the duration of the B.Tech course?",
+        "Is the B.Tech course full-time?",
+        "What university is the B.Tech affiliated with?",
+        "What does the B.Tech program cover?"
+      ],
+      "responses": [
+        "Allenhouse Institute of Technology offers a full-time Bachelor of Technology (B.Tech) degree approved by AICTE and affiliated to Dr. A.P.J. Abdul Kalam Technical University, Uttar Pradesh, Lucknow. The institute emphasizes thorough knowledge and encourages innovative application of technology and entrepreneurship."
+      ]
+    },
+    {
+      "tag": "btech_program_structure",
+      "patterns": [
+        "What is the structure of the B.Tech program?",
+        "How is the B.Tech program organized?",
+        "Can you explain the B.Tech curriculum?",
+        "What specializations are offered in the B.Tech course?"
+      ],
+      "responses": [
+        "The B.Tech program offers specializations in various fields, including Computer Science & Engineering, Computer Science & Engineering (AI & ML), Electronics & Communication Engineering, Mechanical Engineering, and Civil Engineering."
+      ]
+    },
+    {
+      "tag": "btech_awards_recognition",
+      "patterns": [
+        "Has the B.Tech program received any awards?",
+        "What recognition has the institute achieved?",
+        "Tell me about the achievements of Allenhouse Institute of Technology"
+      ],
+      "responses": [
+        "The institute has received the Engineering Excellence Award (2019-20) by the Imperial Society of Innovative Engineers for its efforts in providing world-class education in engineering and fostering research & development."
+      ]
+    },
+    {
+      "tag": "btech_technical_trainings",
+      "patterns": [
+        "What technical training is provided for B.Tech students?",
+        "Are there any certifications available for B.Tech students?",
+        "Tell me about technical skills training for B.Tech students",
+        "What skills can I learn during the B.Tech program?"
+      ],
+      "responses": [
+        "Allenhouse Institute of Technology provides sought-after technical training in collaboration with industry experts. Students receive training in various areas, including AutoCAD, MS Project, Python Programming, IoT, Solidworks, and more, tailored to their specific engineering discipline."
+      ]
+    },
+    {
+      "tag": "btech_apply_now",
+      "patterns": [
+        "How can I apply for the B.Tech program?",
+        "What is the application process for B.Tech?",
+        "Can you provide information on applying for B.Tech?"
+      ],
+      "responses": [
+        "You can apply for the B.Tech program through the Allenhouse Institute of Technology's official website or by visiting the campus for more information on the application process."
+      ]
+    },
+    {
+      "tag": "mca_overview",
+      "patterns": [
+        "Tell me about the MCA program.",
+        "What is the Master of Computer Applications?",
+        "Can you explain what the MCA degree is?",
+        "What does the MCA course entail?"
+      ],
+      "responses": [
+        "The Master of Computer Applications (MCA) is a two-year full-time postgraduate degree focusing on computer applications. It is designed for students who want to delve deeper into computer science and its various applications. The program provides a blend of theoretical knowledge and practical experience."
+      ]
+    },
+    {
+      "tag": "mca_duration",
+      "patterns": [
+        "What is the duration of the MCA course?",
+        "How long does the MCA program take?",
+        "Is the MCA degree a two-year program?"
+      ],
+      "responses": [
+        "The MCA program is a two-year full-time course divided into four semesters."
+      ]
+    },
+{
+    "tag": "mca_curriculum",
+    "patterns": [
+      "What subjects are covered in the MCA curriculum?",
+      "Can you list the courses in the MCA program?",
+      "What topics are included in the MCA syllabus?"
+    ],
+    "responses": [
+      "The MCA program consists of various subjects spread over four semesters. The curriculum includes: \n1st Semester: Fundamentals of Computers, Problem Solving using C, Principles of Management, and Communication. \n2nd Semester: Theory of Automata, Object Oriented Programming, Operating Systems, and Cyber Security. \n3rd Semester: Artificial Intelligence, Software Engineering, Computer Networks, and electives. \n4th Semester: Advanced electives and a project."
+    ]
+  },
+  {
+    "tag": "mca_electives",
+    "patterns": [
+      "What electives are available in the MCA program?",
+      "Can you tell me about the elective courses for MCA students?",
+      "What choices do I have for electives in the MCA?"
+    ],
+    "responses": [
+      "The MCA program offers a variety of electives such as: \n- Cryptography & Network Security \n- Data Warehousing & Data Mining \n- Cloud Computing \n- Web Technology \n- Big Data \n- Machine Learning, and many more. These electives allow students to specialize in areas of interest."
+    ]
+  },
+  {
+    "tag": "mca_technical_training",
+    "patterns": [
+      "What technical training is provided for MCA students?",
+      "Are there any certifications available for MCA students?",
+      "What skills can I learn during the MCA program?",
+      "Can you tell me about the training programs for MCA?"
+    ],
+    "responses": [
+      "The Technical Training Department offers various training programs including Python, Advanced Data Structures, Object-Oriented Programming with Java, and Database Management Systems with SQL. These programs are designed to enhance students' professional development and technical skills."
+    ]
+  },
+  {
+    "tag": "mca_career_prospects",
+    "patterns": [
+      "What are the career prospects after completing MCA?",
+      "Can an MCA degree enhance my job opportunities?",
+      "What roles can I pursue after an MCA degree?",
+      "How does an MCA degree help in career advancement?"
+    ],
+    "responses": [
+      "An MCA degree can significantly enhance your career prospects. Graduates can pursue various roles such as Software Developer, System Analyst, Database Administrator, and IT Manager. Many employers prefer candidates with a master's degree for higher-level positions and leadership roles."
+    ]
+  },
+  {
+    "tag": "mca_apply_now",
+    "patterns": [
+      "How can I apply for the MCA program?",
+      "What is the application process for MCA?",
+      "Can you provide information on applying for MCA?",
+      "What are the steps to apply for the MCA course?"
+    ],
+    "responses": [
+      "To apply for the MCA program, you can visit the official website of Allenhouse Institute of Technology or contact the admissions office for detailed information on the application process and deadlines."
+    ]
+  },
+  {
+    "tag": "mca_project_work",
+    "patterns": [
+      "Is there a project component in the MCA program?",
+      "What kind of project work is included in the MCA curriculum?",
+      "Can you explain the project requirement for MCA students?"
+    ],
+    "responses": [
+      "Yes, the MCA program includes a project component in the final semester. Students are required to complete a project that demonstrates their understanding of the concepts learned throughout the course, allowing them to apply their knowledge to real-world problems."
+    ]
+  },
+  {
+    "tag": "mca_faculty",
+    "patterns": [
+      "Who teaches in the MCA program?",
+      "What is the qualification of MCA faculty?",
+      "Can you tell me about the faculty for the MCA program?"
+    ],
+    "responses": [
+      "The MCA program is taught by highly qualified and experienced faculty members who specialize in various fields of computer science and applications. They are dedicated to providing students with a solid foundation in both theory and practice."
+    ]
+  },
+  {
+    "tag": "mca_infrastructure",
+    "patterns": [
+      "What facilities are available for MCA students?",
+      "Can you describe the infrastructure for the MCA program?",
+      "What kind of labs and resources do MCA students have access to?"
+    ],
+    "responses": [
+      "Allenhouse Institute of Technology provides modern infrastructure and facilities for MCA students, including well-equipped computer labs, libraries with a wide range of resources, and access to the latest software and technologies to support their learning."
+    ]
+  },
+  {
+    "tag": "applied_science_overview",
+    "patterns": [
+      "Tell me about the Applied Science & Humanities department.",
+      "What is the focus of the Applied Science & Humanities program?",
+      "Can you explain what the Applied Science & Humanities department does?"
+    ],
+    "responses": [
+      "The Applied Science & Humanities department focuses on fundamental sciences and basic humanities, including Mathematics, Physics, Chemistry, and Professional Communication. It aims to lay a strong foundation for students in their engineering studies."
+    ]
+  },
+  {
+    "tag": "applied_science_vision",
+    "patterns": [
+      "What is the vision of the Applied Science & Humanities department?",
+      "Can you explain the vision for the Applied Science & Humanities program?",
+      "What are the goals of the Applied Science & Humanities department?"
+    ],
+    "responses": [
+      "The vision of the Applied Science & Humanities department is to establish a strong foundation in the first year of study, making engineering concepts more accessible and comprehensible for students."
+    ]
+  },
+  {
+    "tag": "applied_science_mission",
+    "patterns": [
+      "What is the mission of the Applied Science & Humanities department?",
+      "Can you describe the mission of the Applied Science & Humanities program?",
+      "What are the primary goals of the Applied Science & Humanities department?"
+    ],
+    "responses": [
+      "The mission of the Applied Science & Humanities department is to strengthen conceptual frameworks, build a solid foundation, instill core essentials, and enhance communication skills within the fields of Applied Sciences and Humanities."
+    ]
+  },
+  {
+    "tag": "applied_science_subjects",
+    "patterns": [
+      "What subjects are taught in the Applied Science & Humanities department?",
+      "Can you list the courses offered in Applied Science & Humanities?",
+      "What are the core subjects in the Applied Science & Humanities program?"
+    ],
+    "responses": [
+      "The Applied Science & Humanities department offers courses in fundamental sciences such as Mathematics, Physics, and Chemistry, as well as Professional Communication to develop essential skills for engineering studies."
+    ]
+  },
+  {
+    "tag": "applied_science_importance",
+    "patterns": [
+      "Why is Applied Science & Humanities important for engineering students?",
+      "How does the Applied Science & Humanities department support engineering education?",
+      "What role does the Applied Science & Humanities department play in engineering?"
+    ],
+    "responses": [
+      "The Applied Science & Humanities department plays a crucial role in engineering education by providing students with a strong foundation in fundamental concepts, enhancing their understanding and application of engineering principles."
+    ]
+  },
+ {
+      "tag": "mca_curriculum",
+      "patterns": [
+        "What subjects are covered in the MCA curriculum?",
+        "Can you list the courses in the MCA program?",
+        "What topics are included in the MCA syllabus?"
+      ],
+      "responses": [
+        "The MCA program consists of various subjects spread over four semesters. The curriculum includes: \n1st Semester: Fundamentals of Computers, Problem Solving using C, Principles of Management, and Communication. \n2nd Semester: Theory of Automata, Object Oriented Programming, Operating Systems, and Cyber Security. \n3rd Semester: Artificial Intelligence, Software Engineering, Computer Networks, and electives. \n4th Semester: Advanced electives and a project."
+      ]
+    },
+    {
+      "tag": "mca_electives",
+      "patterns": [
+        "What electives are available in the MCA program?",
+        "Can you tell me about the elective courses for MCA students?",
+        "What choices do I have for electives in the MCA?"
+      ],
+      "responses": [
+        "The MCA program offers a variety of electives such as: \n- Cryptography & Network Security \n- Data Warehousing & Data Mining \n- Cloud Computing \n- Web Technology \n- Big Data \n- Machine Learning, and many more. These electives allow students to specialize in areas of interest."
+      ]
+    },
+    {
+      "tag": "mca_technical_training",
+      "patterns": [
+        "What technical training is provided for MCA students?",
+        "Are there any certifications available for MCA students?",
+        "What skills can I learn during the MCA program?",
+        "Can you tell me about the training programs for MCA?"
+      ],
+      "responses": [
+        "The Technical Training Department offers various training programs including Python, Advanced Data Structures, Object-Oriented Programming with Java, and Database Management Systems with SQL. These programs are designed to enhance students' professional development and technical skills."
+      ]
+    },
+    {
+      "tag": "mca_career_prospects",
+      "patterns": [
+        "What are the career prospects after completing MCA?",
+        "Can an MCA degree enhance my job opportunities?",
+        "What roles can I pursue after an MCA degree?",
+        "How does an MCA degree help in career advancement?"
+      ],
+      "responses": [
+        "An MCA degree can significantly enhance your career prospects. Graduates can pursue various roles such as Software Developer, System Analyst, Database Administrator, and IT Manager. Many employers prefer candidates with a master's degree for higher-level positions and leadership roles."
+      ]
+    },
+    {
+      "tag": "mca_apply_now",
+      "patterns": [
+        "How can I apply for the MCA program?",
+        "What is the application process for MCA?",
+        "Can you provide information on applying for MCA?",
+        "What are the steps to apply for the MCA course?"
+      ],
+      "responses": [
+        "To apply for the MCA program, you can visit the official website of Allenhouse Institute of Technology or contact the admissions office for detailed information on the application process and deadlines."
+      ]
+    },
+    {
+      "tag": "mca_project_work",
+      "patterns": [
+        "Is there a project component in the MCA program?",
+        "What kind of project work is included in the MCA curriculum?",
+        "Can you explain the project requirement for MCA students?"
+      ],
+      "responses": [
+        "Yes, the MCA program includes a project component in the final semester. Students are required to complete a project that demonstrates their understanding of the concepts learned throughout the course, allowing them to apply their knowledge to real-world problems."
+      ]
+    },
+    {
+      "tag": "mca_faculty",
+      "patterns": [
+        "Who teaches in the MCA program?",
+        "What is the qualification of MCA faculty?",
+        "Can you tell me about the faculty for the MCA program?"
+      ],
+      "responses": [
+        "The MCA program is taught by highly qualified and experienced faculty members who specialize in various fields of computer science and applications. They are dedicated to providing students with a solid foundation in both theory and practice."
+      ]
+    },
+    {
+      "tag": "mca_infrastructure",
+      "patterns": [
+        "What facilities are available for MCA students?",
+        "Can you describe the infrastructure for the MCA program?",
+        "What kind of labs and resources do MCA students have access to?"
+      ],
+      "responses": [
+        "Allenhouse Institute of Technology provides modern infrastructure and facilities for MCA students, including well-equipped computer labs, libraries with a wide range of resources, and access to the latest software and technologies to support their learning."
+      ]
+    },
+    {
+      "tag": "applied_science_overview",
+      "patterns": [
+        "Tell me about the Applied Science & Humanities department.",
+        "What is the focus of the Applied Science & Humanities program?",
+        "Can you explain what the Applied Science & Humanities department does?"
+      ],
+      "responses": [
+        "The Applied Science & Humanities department focuses on fundamental sciences and basic humanities, including Mathematics, Physics, Chemistry, and Professional Communication. It aims to lay a strong foundation for students in their engineering studies."
+      ]
+    },
+    {
+      "tag": "applied_science_vision",
+      "patterns": [
+        "What is the vision of the Applied Science & Humanities department?",
+        "Can you explain the vision for the Applied Science & Humanities program?",
+        "What are the goals of the Applied Science & Humanities department?"
+      ],
+      "responses": [
+        "The vision of the Applied Science & Humanities department is to establish a strong foundation in the first year of study, making engineering concepts more accessible and comprehensible for students."
+      ]
+    },
+    {
+      "tag": "applied_science_mission",
+      "patterns": [
+        "What is the mission of the Applied Science & Humanities department?",
+        "Can you describe the mission of the Applied Science & Humanities program?",
+        "What are the primary goals of the Applied Science & Humanities department?"
+      ],
+      "responses": [
+        "The mission of the Applied Science & Humanities department is to strengthen conceptual frameworks, build a solid foundation, instill core essentials, and enhance communication skills within the fields of Applied Sciences and Humanities."
+      ]
+    },
+    {
+      "tag": "applied_science_subjects",
+      "patterns": [
+        "What subjects are taught in the Applied Science & Humanities department?",
+        "Can you list the courses offered in Applied Science & Humanities?",
+        "What are the core subjects in the Applied Science & Humanities program?"
+      ],
+      "responses": [
+        "The Applied Science & Humanities department offers courses in fundamental sciences such as Mathematics, Physics, and Chemistry, as well as Professional Communication to develop essential skills for engineering studies."
+      ]
+    },
+    {
+      "tag": "applied_science_importance",
+      "patterns": [
+        "Why is Applied Science & Humanities important for engineering students?",
+        "How does the Applied Science & Humanities department support engineering education?",
+        "What role does the Applied Science & Humanities department play in engineering?"
+      ],
+      "responses": [
+        "The Applied Science & Humanities department plays a crucial role in engineering education by providing students with a strong foundation in fundamental concepts, enhancing their understanding and application of engineering principles."
+      ]
+    },
+    {
+      "tag": "applied_science_faculty",
+      "patterns": [
+        "Who teaches in the Applied Science & Humanities department?",
+        "Can you tell me about the faculty for Applied Science & Humanities?",
+        "What is the qualification of the Applied Science & Humanities faculty?"
+      ],
+      "responses": [
+        "The faculty in the Applied Science & Humanities department consists of qualified and experienced educators dedicated to helping students build a solid foundation in the essential sciences and humanities."
+      ]
+    },
+    {
+      "tag": "applied_science_infrastructure",
+      "patterns": [
+        "What facilities are available in the Applied Science & Humanities department?",
+        "Can you describe the infrastructure for Applied Science & Humanities?",
+        "What kind of labs and resources do students have access to in Applied Science & Humanities?"
+      ],
+      "responses": [
+        "The Applied Science & Humanities department is equipped with modern facilities and resources, including laboratories for practical experiments and classrooms designed to enhance learning in fundamental sciences and humanities."
+      ]
+    },
+    {
+      "tag": "clubs",
+      "patterns": [
+        "What clubs are available at Allenhouse Group of Institutions?",
+        "Can you describe the different clubs for students?",
+        "What extracurricular activities can students participate in at Allenhouse?"
+      ],
+      "responses": [
+        "The clubs at Allenhouse Group of Institutions include:\n- The Exuberant: The Cultural Club created with the objective of Planning, Organising and Managing all Socio-Cultural Activities.\n- Fitadict: The Sports Club created with an objective of Planning, Organising and Managing all Sports & Fitness Activities for students & faculties.\n- Altruist: The Placement Club created with an objective of Planning, Organising and Managing all Placement & Corporate Relations Activities.\n- Synergy: The Techno-Management Club created with an objective of Planning, Organising and Managing all Technical Activities & Competitions among students.\n- Samarthan: The Institutional Social Responsibility Club aimed at taking forward all efforts towards social causes and initiating a new beginning.\n- Allenshots: The Photography Club focused on harnessing the photography talent among students.\n- Englitia: The English Club that allows participants to use and practice English in an informal setting."
+      ]
+    },
+    {
+      "tag": "awards",
+      "patterns": [
+        "What awards has Allenhouse Group of Institutions received?",
+        "Can you list the recognitions of Allenhouse?",
+        "What accolades has the institution achieved recently?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions has received several awards:\n- BEST ACADEMIA INDUSTRY ALLIANCE in the Education World India Higher Education Grand Jury Award 2022-23.\n- BEST MANAGEMENT PRACTICES & SYSTEM in the Education World India Higher Education Grand Jury Award 2022-23.\n- QUALITY OF CAMPUS LIFE in the Education World India Higher Education Grand Jury Award 2022-23."
+      ]
+    },
+    {
+      "tag": "about",
+      "patterns": [
+        "Can you tell me about Allenhouse Group of Institutions?",
+        "What is the history of Allenhouse?",
+        "When was Allenhouse Institute of Technology established?"
+      ],
+      "responses": [
+        "Allenhouse Group of Institutions premiered in technical education with the inception of Allenhouse Institute of Technology in 2009, offering graduate courses in B.Tech.\nEstablished under the aegis of Superhouse Educational Foundation, it has been imparting leading-edge education in the field of business and technology in Uttar Pradesh.\nIn 2015, Allenhouse Business School was established to offer Graduate Courses in BBA and BCA. In 2020, the Allenhouse Institute of Management was established, offering a Master of Business Administration (MBA)."
+      ]
+    },
+    {
+      "tag": "programs_offered",
+      "patterns": [
+        "What programs are available at Allenhouse Group of Institutions?",
+        "Can you list the courses offered?",
+        "What degrees can I pursue at Allenhouse?"
+      ],
+      "responses": [
+        "The following programs are offered:\n- B.Tech (Apply Now)\n- BBA / BCA (Apply Now)\n- MBA (Apply Now)\n- MCA (Apply Now)"
+      ]
+    },
+    {
+      "tag": "success_stories",
+      "patterns": [
+        "What are some success stories from Allenhouse alumni?",
+        "Can you share testimonials from students?",
+        "Are there any inspiring stories from graduates?"
+      ],
+      "responses": [
+        "We have inspiring success stories from our alumni and students. Stay tuned for their testimonials!"
+      ]
+    },
+    {
+      "tag": "recruiters",
+      "patterns": [
+        "Who are the recruiters for Allenhouse students?",
+        "Can you list some companies that recruit from Allenhouse?",
+        "What organizations hire graduates from Allenhouse?"
+      ],
+      "responses": [
+        "Our esteemed recruiters include:\n- Hashed in\n- Fynd\n- Mthree\n- Ashok Leyland\n- Uno Minda"
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "How can I contact Allenhouse Group of Institutions?",
+        "What are the contact details for Allenhouse?",
+        "Where is Allenhouse located?"
+      ],
+      "responses": [
+        "You can contact us at:\nAddress: Plot No.- 176, Kulgaon Road, Rooma\nPhone: [Your Contact Number]\nEmail: [Your Email Address]"
+      ]
+    },
+    {
+      "tag": "digital_learning",
+      "patterns": [
+        "What is the approach to digital learning at Allenhouse?",
+        "How does Allenhouse incorporate digital education?",
+        "Can you explain the digital learning initiatives at Allenhouse?"
+      ],
+      "responses": [
+        "At Allenhouse Group of Institutions, we embrace digital learning to meet the demands of an ever-evolving educational landscape.\nAs Socrates said, 'The secret of change is to focus all your energy not on fighting the odd, but on building the new.'\nWe have successfully transitioned from traditional classroom learning to a digital pedagogical approach, employing adaptive learning techniques to engage students interactively through digital technology.\nOur initiatives include regular classes, guest lectures, interactions with foreign professors and directors of IIMs, expert talks by IIT professors, and a variety of national and international webinars.\nOur curriculum is digitally updated, and our faculty members are skilled in utilizing digital tools for both classroom instruction and remote online teaching."
+      ]
+    }
+  ]
+}
